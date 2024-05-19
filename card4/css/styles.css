@@ -62,17 +62,13 @@ a:hover {
 .contenedor {
     width: min(80%, 120rem);
     margin: 0 auto;
+    height: 95vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@media (min-width: 768px) {
-    .contenedor {
-        height: 95vh;
-    }
-}
 
 .card {
     display: flex;
